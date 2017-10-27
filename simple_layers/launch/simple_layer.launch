@@ -1,0 +1,11 @@
+<launch>
+	<group ns="sensor">
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_centor" args="0.0 0.0 0.1 0 0.0 0.0 base_footprint ultra_centor 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_left_1" args="0.07 0.07 0.0 0.87 0.0 0.0 ultra_centor ultra_left_1 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_1" args="0.1 -0.08 0.0 0 0.0 0.0 ultra_centor ultra_before_1 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_2" args="0.1 -0.04 0.0 0 0.0 0.0 ultra_centor ultra_before_2 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_3" args="0.1 0.04 0.0 0 0.0 0.0 ultra_centor ultra_before_3 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_4" args="0.1 0.08 0.0 0 0.0 0.0 ultra_centor ultra_before_4 100"/>
+		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_right_1" args="0.07 -0.07 0.0 -0.87 0.0 0.0 ultra_centor ultra_right_1 100"/>
+	</group>
+</launch>
