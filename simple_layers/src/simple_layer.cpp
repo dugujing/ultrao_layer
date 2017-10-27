@@ -103,14 +103,14 @@ namespace simple_layer_namespace
       std::string obstacle_range_param_name;
       
       // 得到传感器的障碍范围
-      double obstacle_range = 2.5;
+      double obstacle_range = 1.8;
       if (source_node.searchParam("obstacle_range", obstacle_range_param_name))
       {
 	source_node.getParam(obstacle_range_param_name, obstacle_range);
       }
       
       //获取传感器的射线追踪范围
-      double raytrace_range = 3.0;
+      double raytrace_range = 2.3;
       if (source_node.searchParam("raytrace_range", raytrace_range_param_name))
       {
 	source_node.getParam(raytrace_range_param_name, raytrace_range);

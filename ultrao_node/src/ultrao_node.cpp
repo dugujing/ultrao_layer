@@ -125,7 +125,7 @@ int main (int argc, char** argv)
   } 
   
   //指定循环的频率 
-  ros::Rate loop_rate(500); 
+  ros::Rate loop_rate(5); 
   while(ros::ok()) 
   { 
     

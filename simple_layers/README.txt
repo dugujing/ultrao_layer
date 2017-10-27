@@ -29,5 +29,5 @@ simple_layer:
 3. source 当前工作空间
   $ rospack plugins --attrib=plugin costmap_2d
 
-4.$ roslaunch simple_layers simple_layer.launch
+4. $ roslaunch simple_layers simple_layer.launch
   launch 修改launch文件，进行tf坐标变换

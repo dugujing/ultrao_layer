@@ -7,5 +7,8 @@
 		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_3" args="0.1 0.04 0.0 0 0.0 0.0 ultra_centor ultra_before_3 100"/>
 		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_before_4" args="0.1 0.08 0.0 0 0.0 0.0 ultra_centor ultra_before_4 100"/>
 		<node pkg="tf" type="static_transform_publisher" name="base_to_ultra_right_1" args="0.07 -0.07 0.0 -0.87 0.0 0.0 ultra_centor ultra_right_1 100"/>
-	</group>
+	</group>	
+
+	<node name="ultrao_node" pkg="ultrao_node" type="ultrao_node"/>
+
 </launch>
